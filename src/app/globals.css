@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Russo+One&display=swap');
+
+body {
+  background: #000 !important;
+}
+
+/* Heading */
+.fancy-heading {
+  font-family: 'Russo One', 'Poppins', Arial, sans-serif;
+  font-size: 2.3rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  padding: 0.13em 0.3em;
+  text-align: center;
+  border-radius: 1em;
+  margin-bottom: 0.3em;
+  background: linear-gradient(90deg,#10c1cc 20%,#3ddc97 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+  text-shadow:
+    0 0px 16px #37f0cb88,
+    0 3px 12px #1fe7eeee;
+}
+
+.gradient-text {
+  font-family: inherit;
+  background: linear-gradient(92deg, #00cfff 35%, #40ffa7 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Chat bubbles */
+.user-bubble-impress {
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 1.07rem;
+  font-weight: 600;
+  border-radius: 1.5rem 1.5rem 0.6rem 1.5rem;
+  background: linear-gradient(90deg, #192549 60%, #00bfff 100%);
+  color: #fff;
+  padding: 1rem 1.18rem;
+  box-shadow: 0 6px 25px 0 rgba(65,255,238,.10);
+  border: 1.5px solid #142c49;
+  margin-bottom: 2px;
+}
+
+.assistant-bubble-impress {
+  font-family: 'Quicksand', 'Roboto', Arial, sans-serif;
+  font-size: 1.06rem;
+  font-weight: 500;
+  border-radius: 1.5rem 1.5rem 1.5rem 0.6rem;
+  background: linear-gradient(90deg, #101821 60%, #2e3e47 100%);
+  color: #76ffd6;
+  padding: 1rem 1.14rem;
+  box-shadow: 0 8px 32px 0 rgba(0,255,189,.05);
+  border: 1.5px solid #183d35;
+  margin-bottom: 2px;
+}
+
+/* Suggested queries (pills) */
+.suggested-btn {
+  background: linear-gradient(99deg,#22294c 60%, #295164 100%);
+  color: #55ffc9;
+  border: 1.5px solid #00ffa3;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px #0ffab3b0;
+  font-weight: 700;
+  padding: 0.5rem 1.15rem;
+  font-size: 0.98rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.suggested-btn:hover {
+  background: linear-gradient(95deg,#183a72 80%, #227051 100%);
+  color: #fff;
+  border-color: #50fff0;
+}
+
+/* ChatGPT-style input box */
+.chat-input-impress {
+  background: #21232A;
+  color: #fff;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.85em 1.2em;
+  font-size: 1.08rem;
+  box-shadow: 0 4px 16px #0ffab333;
+  outline: none;
+}
+.chat-input-impress::placeholder {
+  color: #a3a3b1;
+  opacity: 0.95;
+}
+
+/* ChatGPT-style send button */
+.send-btn-impress {
+  background: linear-gradient(100deg,#2563eb 60%, #38bdf8 100%);
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  width: 2.9em;
+  height: 2.9em;
+  box-shadow: 0 2px 12px #1d4ed822;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.send-btn-impress:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.send-btn-impress:hover {
+  background: linear-gradient(100deg,#8a96b8 60%, #5e6e76 100%);
+}

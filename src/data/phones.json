@@ -1,0 +1,182 @@
+[
+  {
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "price": 79999,
+    "specs": {
+      "display": "6.1'' OLED",
+      "processor": "A16 Bionic",
+      "camera": "48MP OIS Dual",
+      "battery": "3349mAh",
+      "ram": "6GB",
+      "storage": "128GB"
+    },
+    "features": ["iOS", "OIS", "wireless charging", "premium build", "dynamic island"],
+    "pros": ["Top camera", "iOS updates", "Build quality"],
+    "cons": ["No 120Hz", "No telephoto"]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "price": 99999,
+    "specs": {
+      "display": "6.8'' 120Hz AMOLED",
+      "processor": "Snapdragon 8 Gen 3",
+      "camera": "200MP OIS Quad",
+      "battery": "5000mAh",
+      "ram": "12GB",
+      "storage": "256GB"
+    },
+    "features": ["Android", "120Hz display", "S Pen", "IP68 waterproof", "OIS", "zoom camera", "wireless charging", "AI camera"],
+    "pros": ["Best display", "Versatile camera", "Stylus support"],
+    "cons": ["Bulky", "Expensive"]
+  },
+  {
+    "brand": "Redmi",
+    "model": "Note 13 Pro+",
+    "price": 28999,
+    "specs": {
+      "display": "6.67'' 120Hz AMOLED",
+      "processor": "Dimensity 7200-Ultra",
+      "camera": "200MP Triple",
+      "battery": "5000mAh",
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    "features": ["200MP camera", "120Hz display", "curved screen", "fast 120W charging", "budget flagship"],
+    "pros": ["Big camera", "Quick charging"],
+    "cons": ["MIUI ads"]
+  },
+  {
+    "brand": "Redmi",
+    "model": "12C",
+    "price": 10499,
+    "specs": {
+      "display": "6.71''",
+      "processor": "Helio G85",
+      "camera": "50MP",
+      "battery": "5000mAh",
+      "ram": "4GB",
+      "storage": "64GB"
+    },
+    "features": ["big battery", "fast charging", "value", "long battery"],
+    "pros": ["Lowest price", "Good battery"],
+    "cons": ["Basic display", "No 5G"]
+  },
+  {
+    "brand": "Realme",
+    "model": "Narzo 60",
+    "price": 14999,
+    "specs": {
+      "display": "6.5'' FHD+",
+      "processor": "Dimensity 6020",
+      "camera": "50MP",
+      "battery": "5000mAh",
+      "ram": "6GB",
+      "storage": "128GB"
+    },
+    "features": ["Android", "big battery", "fast charging", "battery king", "budget", "long battery"],
+    "pros": ["Affordable", "Lasts all day", "Charges quickly"],
+    "cons": ["Average camera"]
+  },
+  {
+    "brand": "Realme",
+    "model": "12 Pro+",
+    "price": 29999,
+    "specs": {
+      "display": "6.7'' 120Hz AMOLED",
+      "processor": "Snapdragon 7s Gen 2",
+      "camera": "200MP OIS Triple",
+      "battery": "5000mAh",
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    "features": ["200MP camera", "OIS", "budget flagship", "120Hz AMOLED", "fast charging"],
+    "pros": ["Huge camera", "VFM"],
+    "cons": ["Realme UI ads"]
+  },
+  {
+    "brand": "Vivo",
+    "model": "V29 Pro",
+    "price": 39999,
+    "specs": {
+      "display": "6.78'' 120Hz AMOLED",
+      "processor": "Dimensity 8200",
+      "camera": "50MP OIS Triple",
+      "battery": "4600mAh",
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    "features": ["camera phone", "slim", "OIS", "120Hz", "vlogging"],
+    "pros": ["Great for selfies", "Light & slim"],
+    "cons": ["Bloatware"]
+  },
+  {
+    "brand": "Nothing",
+    "model": "Phone 2",
+    "price": 39999,
+    "specs": {
+      "display": "6.7'' 120Hz AMOLED",
+      "processor": "Snapdragon 8+ Gen 1",
+      "camera": "50MP Dual",
+      "battery": "4700mAh",
+      "ram": "12GB",
+      "storage": "256GB"
+    },
+    "features": ["unique design", "glyph lights", "clean android", "120Hz display"],
+    "pros": ["Design", "Clean UI"],
+    "cons": ["No telephoto camera", "Limited service"]
+  },
+  {
+    "brand": "iQOO",
+    "model": "Neo 7 Pro",
+    "price": 32999,
+    "specs": {
+      "display": "6.78'' 120Hz AMOLED",
+      "processor": "Snapdragon 8+ Gen 1",
+      "camera": "50MP OIS Dual",
+      "battery": "5000mAh",
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    "features": ["Snapdragon 8+ Gen 1", "120Hz display", "fast charging", "gaming", "OIS"],
+    "pros": ["Gaming", "Quick charge"],
+    "cons": ["Similar to many"]
+  },
+  {
+    "brand": "OnePlus",
+    "model": "12R",
+    "price": 42999,
+    "specs": {
+      "display": "6.78'' 120Hz AMOLED",
+      "processor": "Snapdragon 8 Gen 2",
+      "camera": "50MP OIS Triple",
+      "battery": "5500mAh",
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    "features": ["Android", "OIS", "120Hz display", "Snapdragon 8 Gen 2", "fast charging", "gaming", "BGMI optimized"],
+    "pros": ["Performance", "Big battery", "Fast charge"],
+    "cons": ["No wireless charging"]
+  },
+  {
+  "brand": "Google",
+  "model": "Pixel 8",
+  "price": 64999,
+  "specs": {
+    "display": "6.2'' OLED",
+    "processor": "Tensor G3",
+    "camera": "50MP OIS Dual",
+    "battery": "4575mAh",
+    "ram": "8GB",
+    "storage": "128GB"
+  },
+  "features": ["Android", "compact", "one hand use", "OIS", "clean android", "fast charging"],
+  "pros": ["Fits in hand", "Clean software"],
+  "cons": ["Expensive"]
+
+
+}
+
+
+]
